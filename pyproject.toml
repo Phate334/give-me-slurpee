@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "slurpee"
+version = "0.1.0"
+description = ""
+authors = ["Phate334 <phate334@gmail.com>"]
+license = "apache-2.0"
+readme = "README.md"
+include = ["slurpee"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests-html = "^0.10.0"
+lxml = "^4.9.3"
+pydantic = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+pylint = "^2.17.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
